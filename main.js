@@ -23,7 +23,7 @@ console.log("numbers without:", numbersWithout);
 const shuffledNumbers = _.shuffle(numbers);
 console.log("shuffled numbers:", shuffledNumbers);
 
-// _.head() returns first element of an array
+// _.head() returns first element of an array. Above we used the reverse method so this will be pulling from that array. Therefore, the expected first animal will be wallabe
 const firstAnimal = _.head(animals);
 console.log("first animal:", firstAnimal);
 
@@ -56,7 +56,7 @@ if (typeof describe === "function") {
   });
   describe("#testing firstAnimal", function () {
     it("should divide the main array into 3 smaller arrays", function () {
-      assert.equal(animalGroups.length, 2);
+      assert.equal(firstAnimal, "wallabe");
     });
   });
 }
