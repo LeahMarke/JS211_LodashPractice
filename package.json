@@ -1,0 +1,23 @@
+{
+  "name": "js211_lodashpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeahMarke/JS211_LodashPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeahMarke/JS211_LodashPractice/issues"
+  },
+  "homepage": "https://github.com/LeahMarke/JS211_LodashPractice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mocha": "^10.0.0"
+  }
+}
